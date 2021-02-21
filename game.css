@@ -1,6 +1,7 @@
 body{
     color: white;
 }
+/* addind code to buttons and the content are on the center of the page */
 .choice-container{
     display: flex;
     margin-bottom: 0.8rem;
@@ -10,6 +11,7 @@ body{
     font-size: 3rem;
     min-width: 80rem;
 }
+/* adding effects to my buttons */
 .choice-container:hover{
     cursor: pointer;
     transform: scale(1.02);
@@ -24,6 +26,7 @@ body{
     padding: 2rem;
     width: 100%;
 }
+/* changr the color of my incorrect and correct answers */
 .correct{
     background-color:green;
 }
@@ -43,6 +46,7 @@ body{
 .hud-main-text{
     text-align: center;
 }
+/* * create a progress bar to show how far along in the game you are */ 
 #progressBar {
     width: 20rem;
     height: 3rem;
@@ -52,11 +56,13 @@ body{
     overflow: hidden;
 
 }
+/* create a progress bar to show how far along in the game you are */
 #progressBarFull {
     height: 100%;
-    background: green;
+    background: rgb(0, 0, 0);
     width: 0%;
 }
+/* adding this only because when i inspect this in my browser my page moves around to much */
 @media screen and (max-width: 768px){
     .choice-container{
         min-width: 40rem;
